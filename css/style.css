@@ -1297,6 +1297,9 @@ div.header_inner.on .search::placeholder{
     .menu a, .login a{width: 25px; height: 25px;}
     .menu a img, .login a img{width: 25px;}
     .hamburger_gnb img{width: 25px;}
+    div.header_inner.on .menu, div.header_inner.on .login{background-size: 100%;}
+    div.header_inner.on .menu a, div.header_inner.on .login a{width: 25px; height: 25px;}
+    div.header_inner.on .menu a img, div.header_inner.on .login a img{width: 25px;}
 
 
     /*main*/
@@ -1564,7 +1567,7 @@ div.header_inner.on .search::placeholder{
     .notice_inner .navy_box{
         height: 197px;
         background-color: #20244A;
-        font-size: 2.5vh;
+        font-size: 18px;
 
         padding: 10% 5%;
         box-sizing: border-box;
