@@ -1989,7 +1989,7 @@ div.header_inner.on .search::placeholder{
     left: 0;
     z-index: 150;
     list-style: none;    
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 700;
     background-color: #ffffffe7;
     backdrop-filter: blur(10px);
@@ -2005,7 +2005,7 @@ body{
     flex-direction: column;
 }
 #hamburger_gnb ul li{
-    padding: 35px 0;
+    padding: 28px 0;
     margin-left: 15%;
 }
 #hamburger_gnb ul li:first-child{
