@@ -1329,7 +1329,7 @@ div.header_inner.on .search::placeholder{
     }   
     .slide2{
         width: 300px; /*큐브가로길이*/
-        bottom: 85px;
+        bottom: 110px;
     }
     .slide_inner p{
         text-align: center;
