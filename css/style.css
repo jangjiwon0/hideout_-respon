@@ -1558,7 +1558,7 @@ div.header_inner.on .search::placeholder{
     .notice_inner .navy_box{
         height: 197px;
         background-color: #20244A;
-        font-size: 17px;
+        font-size: 2.1vh;
 
         padding: 10% 5%;
         box-sizing: border-box;
@@ -1609,13 +1609,14 @@ div.header_inner.on .search::placeholder{
 
     /*notice*/
     #notice{
-        height: 937px;
+        height: 100vh;
     }
     .notice_inner{
         padding: 0 5%;
     }
     .notice_inner .title{
-        padding-bottom: 80px;
+        padding-bottom: 30px;
+        font-size: 9vw;
     }
     .notice_inner ul{
         flex-wrap: wrap;
@@ -1632,8 +1633,8 @@ div.header_inner.on .search::placeholder{
     .notice_inner .more{
         position: inherit;
         text-align: end;
-        padding-top: 20px;
-        margin-right: 15px;
+        padding-top: 0;
+        margin-right: 0;
     }
 
 
@@ -1641,7 +1642,7 @@ div.header_inner.on .search::placeholder{
 /*insta*/
 #insta{
     width: 100%;
-    height: 830px;
+    height: 90vh;
     background-image: url(../image/insta_bg_w.png);
     background-repeat: repeat-x;
     background-position: center;
@@ -1671,7 +1672,7 @@ div.header_inner.on .search::placeholder{
     align-items: center;
 
     
-    padding: 147px 0 54px;
+    padding: 150px 0 0;
     box-sizing: border-box;
 }
 .flex h4{
@@ -1793,7 +1794,7 @@ div.header_inner.on .search::placeholder{
     }
 
     .footer_logo img{
-        width: 200px;
+        width: 160px;
     }
     .footer_logo h5{
         padding-top: 20px;
@@ -1826,6 +1827,16 @@ div.header_inner.on .search::placeholder{
     .popup_box img{
         width: 39vh;
     }
+    .top_btn, .popup_btn{
+        right: 18px;
+    }
+    .popup_btn{
+        bottom: 110px;
+    }
+    .top_btn img, .popup_btn img{
+        width: 50px;
+    }
+
 
 }
 
