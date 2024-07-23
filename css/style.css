@@ -1368,7 +1368,7 @@ div.header_inner.on .search::placeholder{
     /*community*/
 
     #community{
-        padding: 150px 0 200px;
+        padding: 120px 0 170px;
         padding-left: 3%;
         padding-right: 3%;
     }
@@ -1493,8 +1493,11 @@ div.header_inner.on .search::placeholder{
 
     .community_inner .more{
         position: absolute;
-        bottom: -90px;
-        right: 6px;
+        bottom: -75px;
+        right: 10px;
+    }
+    .community_inner .more img{
+        width: 40px;
     }
     .community_inner{
         position: relative;
