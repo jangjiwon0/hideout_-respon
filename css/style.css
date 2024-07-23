@@ -1567,7 +1567,7 @@ div.header_inner.on .search::placeholder{
     .notice_inner .navy_box{
         height: 197px;
         background-color: #20244A;
-        font-size: 2.7vb;
+        font-size: 2.4vb;
 
         padding: 10% 5%;
         box-sizing: border-box;
@@ -1583,12 +1583,12 @@ div.header_inner.on .search::placeholder{
         line-height: 23px;
     }
     .notice_inner .navy_box p{
-        font-size: 16px;
+        font-size: 15px;
         padding-bottom: 9px;
         padding-left: 12px;
     }
     .notice_inner .white_box{
-        height: 20%;
+        height: 18%;
         background-color: #fff;
         color: #20244A;
         font-size: 17px;
