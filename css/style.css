@@ -1567,7 +1567,7 @@ div.header_inner.on .search::placeholder{
     .notice_inner .navy_box{
         height: 197px;
         background-color: #20244A;
-        font-size: 18px;
+        font-size: 2.7vb;
 
         padding: 10% 5%;
         box-sizing: border-box;
