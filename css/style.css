@@ -1282,10 +1282,10 @@ div.header_inner.on .search::placeholder{
     }
 
     .menu, .login{
-        top: 80%;
+        top: 50px;
     }
     .logo{
-        top: 70%;
+        top: 50px;
     }    
     div.header_inner.on .menu, div.header_inner.on .login, div.header_inner.on .logo{
         top: 50%;
@@ -1293,6 +1293,11 @@ div.header_inner.on .search::placeholder{
     .logo img{
         width: 100px;
     }
+    
+    .menu a, .login a{width: 25px; height: 25px;}
+    .menu a img, .login a img{width: 25px;}
+    .hamburger_gnb img{width: 25px;}
+
 
     /*main*/
     #main{
@@ -1303,7 +1308,8 @@ div.header_inner.on .search::placeholder{
         margin: 0 auto;
         font-size: 20px;
         padding-top: 0;
-        padding-bottom: 12vh;
+        padding-bottom: 400px;
+        display: none;
     }
     .title{
         font-size: 10vw;
@@ -1311,7 +1317,7 @@ div.header_inner.on .search::placeholder{
     }
     .swiper-slide{
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
     /*.slide_inner .title{}*/
     .cube_next, .cube_prev{
@@ -1323,9 +1329,14 @@ div.header_inner.on .search::placeholder{
     }   
     .slide2{
         width: 300px; /*큐브가로길이*/
+        bottom: 85px;
     }
     .slide_inner p{
         text-align: center;
+    }
+    .swiper-slide.bg1, .swiper-slide.bg2, .swiper-slide.bg3, .swiper-slide.bg4{
+        height: 100vh;
+        background-position: center top;
     }
     
     /*about*/
@@ -1983,7 +1994,7 @@ div.header_inner.on .search::placeholder{
     left: 0;
     z-index: 150;
     list-style: none;    
-    font-size: 27px;
+    font-size: 22px;
     font-weight: 700;
     background-color: #ffffffe7;
     backdrop-filter: blur(10px);
@@ -1999,7 +2010,7 @@ body{
     flex-direction: column;
 }
 #hamburger_gnb ul li{
-    padding: 35px 0;
+    padding: 28px 0;
     margin-left: 15%;
 }
 #hamburger_gnb ul li:first-child{
