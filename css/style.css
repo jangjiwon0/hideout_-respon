@@ -1280,9 +1280,14 @@ div.header_inner.on .search::placeholder{
     div.header_inner.on{
         padding: 32px 0;
     }
-
     .menu, .login{
         top: 50px;
+    }
+    .menu{
+        left: 20px;
+    }
+    .login{
+        right: 20px;
     }
     .logo{
         top: 50px;
@@ -1297,10 +1302,21 @@ div.header_inner.on .search::placeholder{
     .menu a, .login a{width: 25px; height: 25px;}
     .menu a img, .login a img{width: 25px;}
     .hamburger_gnb img{width: 25px;}
-    div.header_inner.on .menu, div.header_inner.on .login{background-size: 100%;}
-    div.header_inner.on .menu a, div.header_inner.on .login a{width: 25px; height: 25px;}
-    div.header_inner.on .menu a img, div.header_inner.on .login a img{width: 25px;}
-
+    div.header_inner.on .menu{
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
+    div.header_inner.on .login li:first-child{
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
+    div.header_inner.on .login li:last-child a{
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
 
     /*main*/
     #main{
